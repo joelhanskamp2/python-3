@@ -14,3 +14,10 @@ if "1" not in dic1:
 dic7 ={'1': '10', '2': '20'}
 dic8 ={'3': '30', '4': '40'}
 dic9 ={'5': '50', '6': '60'}
+def Merge(dic7, dic8):
+    return(dic7.update(dic8))
+def Merge2(dic7, dic9):
+    return(dic7.update(dic9))
+print(Merge(dic7, dic8))
+print(Merge2(dic7, dic9))
+print(dic7)

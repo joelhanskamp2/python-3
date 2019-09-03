@@ -10,6 +10,7 @@ del dic1['1']
 if "1" not in dic1:
     print("90's cranken")
 """
+"""
 
 dic7 ={'1': '10', '2': '20'}
 dic8 ={'3': '30', '4': '40'}
@@ -21,3 +22,21 @@ def Merge2(dic7, dic9):
 print(Merge(dic7, dic8))
 print(Merge2(dic7, dic9))
 print(dic7)
+"""
+
+
+def groet():
+    print("hallo")
+groet()
+groet()
+groet()
+groet()
+groet()
+groet()
+groet()
+groet()
+groet()
+groet()
+def tafel5():
+    print("5, 10, 15, 20, 25, 30, 35, 40, 45, 50")
+tafel5()

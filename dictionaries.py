@@ -24,7 +24,7 @@ print(Merge2(dic7, dic9))
 print(dic7)
 """
 
-
+"""
 def groet():
     print("hallo")
 groet()
@@ -40,4 +40,22 @@ groet()
 def tafel5():
     print("5, 10, 15, 20, 25, 30, 35, 40, 45, 50")
 tafel5()
+"""
 
+def hello(n):
+    for i in range(n):
+        print("hello world")
+hello(99999)
+
+"""
+def sli(n, w):
+    for i in range(n):
+        print(w)
+sli(4, "kip")
+"""
+"""
+def slik(w):
+    
+    for i in range(w):
+        
+"""

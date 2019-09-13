@@ -41,12 +41,12 @@ def tafel5():
     print("5, 10, 15, 20, 25, 30, 35, 40, 45, 50")
 tafel5()
 """
-
+"""
 def hello(n):
     for i in range(n):
         print("hello world")
-hello(99999)
-
+hello(6)
+"""
 """
 def sli(n, w):
     for i in range(n):
@@ -55,7 +55,27 @@ sli(4, "kip")
 """
 """
 def slik(w):
-    
-    for i in range(w):
-        
+    t = 0
+    for i in range(len(w)):
+        #print (i)
+        l = ("")
+        for i in range(t + 1):
+            l += (w[t])
+        t += 1
+        print (l)
+slik("cocksmuts")
 """
+
+def grootste_():
+    getallen = [3, 7, 18, 5, 4, 20]
+    grootste = int(0)
+    rane = len(getallen)
+    print(rane)
+    teller = 0
+    for i in range(rane):
+        getal = getallen[teller]
+        if getal > grootste:
+            grootste = int(getal)
+        teller += 1
+    print(grootste)
+grootste_()

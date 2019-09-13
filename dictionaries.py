@@ -65,12 +65,11 @@ def slik(w):
         print (l)
 slik("cocksmuts")
 """
-
+"""
 def grootste_():
     getallen = [3, 7, 18, 5, 4, 20]
     grootste = int(0)
     rane = len(getallen)
-    print(rane)
     teller = 0
     for i in range(rane):
         getal = getallen[teller]
@@ -79,3 +78,48 @@ def grootste_():
         teller += 1
     print(grootste)
 grootste_()
+"""
+
+"""
+def reverse_string(woord):
+    nieuw_woord = woord[::-1]
+    print(nieuw_woord)
+reverse_string("teer")
+"""
+
+"""
+num = 1
+
+if num > 1:    
+   for i in range(2, num//2):
+       if (num % i) == 0:
+           print(num, "is geen priemgetal")
+           break
+       else:
+            print(num, "is een priemgetal")
+            break
+else: 
+   print(num, "is geen priemgetal") 
+"""
+
+"""
+def reverse_string(woord):
+    nieuw_woord = woord[::-1]
+    if nieuw_woord == woord:
+        print("true")
+    else:
+        print("false")
+reverse_string("teet")
+"""
+
+"""
+listo = ["we", "er", "rt", "ty", "yu", "ui", "io", "op"]
+print(listo[::-1])
+"""
+
+
+listo = ["we", "er", "rt", "ty", "yu", "ui", "io", "op"]
+teller = 0
+for i in listo():
+    print(teller)
+    teller += 1

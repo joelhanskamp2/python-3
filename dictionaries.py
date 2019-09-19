@@ -120,6 +120,6 @@ print(listo[::-1])
 
 listo = ["we", "er", "rt", "ty", "yu", "ui", "io", "op"]
 teller = 0
-for i in listo():
+for index in listo():
     print(teller)
     teller += 1
